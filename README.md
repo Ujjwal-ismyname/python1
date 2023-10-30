@@ -1,0 +1,1 @@
+# python1 is cretated to provide even the very basic details that I am learning to everybody who reads it like even basic conversions and all possible legal syntax for a certain task will be available in this repository
