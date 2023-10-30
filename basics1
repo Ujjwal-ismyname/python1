@@ -1,0 +1,49 @@
+#to print keywords in python
+import keyword
+keyword.kwlist
+
+#to check data type of variable
+a=10;    # ';' is optional symbol
+b="rocksome"
+c=type(a)
+print (type(a))
+print (type(b))
+print(c)
+
+#diiferent ways to print multiple variables together
+x="apple"
+y="banana"
+z="chiku"
+#x="apple",y="banana",z="chiku"
+
+print(x),print(y),print(z)
+print()
+print(x,y,z)
+
+#merge statements(concatenation)
+x="python"
+y="is a"
+z="programming laguage"
+print(x+y+z)  #doesnot incorporate space b/w x,y,z
+print(x+' '+y+' '+z)
+
+#typecasting examples
+b=int(6.78)
+print(b)
+
+c=complex(7.89)
+print(c)
+
+a=float(3)
+print(a)
+
+exp=float(True)
+print(exp)
+
+x=str(6.789)
+print(x)
+print(type(x))
+
+y=str("6.789")
+print(y)
+print(type(y))
